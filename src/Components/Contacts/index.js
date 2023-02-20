@@ -11,6 +11,7 @@ function Contacts() {
 
   return (
     <div id="container">
+      <h1 style={{ color: "white" }}>Contacts</h1>
       <Form addContact={setContacts} contacts={contacts} />
       <List contacts={contacts} />{" "}
     </div>
